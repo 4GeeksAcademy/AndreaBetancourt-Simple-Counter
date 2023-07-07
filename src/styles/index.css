@@ -10,3 +10,28 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+#app {
+    margin: 20px;
+}
+
+.container-fluid {
+    background: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container-fluid div {
+    color: white;
+    background-color: rgba(19, 19, 19, 0.812);
+    width: auto;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    border: 5px solid rgba(19, 19, 19, 0.812);
+    border-radius: 5px;
+    text-align: center;
+    margin: 2%;
+    padding: 30px;
+}
